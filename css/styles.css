@@ -1,0 +1,15 @@
+:root{
+  --bg:#f7f7f8;
+  --accent:#0a74da;
+  --text:#1f2933;
+}
+body{font-family:Segoe UI, Roboto, Arial, sans-serif;color:var(--text);background:var(--bg);margin:0}
+.container{max-width:960px;margin:0 auto;padding:24px}
+.site-header{background:#fff;padding:32px 0;border-bottom:1px solid #e6e9ee}
+.site-header h1{margin:0;font-size:28px}
+.site-header .tagline{color:#6b7280;margin:6px 0}
+.site-header nav a{margin-right:12px;color:var(--accent);text-decoration:none}
+section{background:#fff;padding:20px;margin:20px 0;border-radius:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.card{background:#f1f5f9;padding:16px;border-radius:6px}
+.site-footer{padding:12px 0;text-align:center;color:#6b7280}
